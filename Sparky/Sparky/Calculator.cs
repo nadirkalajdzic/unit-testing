@@ -13,5 +13,6 @@ namespace Sparky
         {
             return number % 2 != 0;
         }
+
     }
 }
