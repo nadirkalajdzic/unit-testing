@@ -7,7 +7,12 @@ namespace Sparky
     public class GradingCalculatorXUnitTests
     {
 
-        private GradingCalculator gradingCalculator = new GradingCalculator();
+        private GradingCalculator gradingCalculator;
+
+        public GradingCalculatorXUnitTests()
+        {
+            gradingCalculator = new GradingCalculator();
+        }
 
         [Fact]
         public void GradeCalc_InputScore95Attendance90_GetAGrade()
