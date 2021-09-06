@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using Moq;
+using NUnit.Framework;
 
 namespace Sparky
 {
@@ -15,9 +16,11 @@ namespace Sparky
         [Test]
         public void BankDeposit_Add100_ReturnTrue()
         {
-            var result = bankAccount.Deposit(100);
+            var logMoq = new Mock<ILogBook>();
+            BankAccount account = new(logMoq.Object);
+            var result = account.Deposit(100);
             Assert.IsTrue(result);
-            Assert.That(bankAccount.GetBalance, Is.EqualTo(100));
+            Assert.That(account.GetBalance, Is.EqualTo(100));
         }
 
     }

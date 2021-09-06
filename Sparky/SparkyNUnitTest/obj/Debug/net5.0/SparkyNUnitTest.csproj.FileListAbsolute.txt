@@ -100,3 +100,5 @@ C:\Users\nadirka\Desktop\unit-testing\Sparky\SparkyNUnitTest\obj\Debug\net5.0\Sp
 C:\Users\nadirka\Desktop\unit-testing\Sparky\SparkyNUnitTest\obj\Debug\net5.0\ref\SparkyNUnitTest.dll
 C:\Users\nadirka\Desktop\unit-testing\Sparky\SparkyNUnitTest\obj\Debug\net5.0\SparkyNUnitTest.pdb
 C:\Users\nadirka\Desktop\unit-testing\Sparky\SparkyNUnitTest\obj\Debug\net5.0\SparkyNUnitTest.genruntimeconfig.cache
+C:\Users\nadirka\Desktop\unit-testing\Sparky\SparkyNUnitTest\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\nadirka\Desktop\unit-testing\Sparky\SparkyNUnitTest\bin\Debug\net5.0\Moq.dll
